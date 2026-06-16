@@ -1,7 +1,10 @@
-function App() {
+import React from "react";
+import Component from "./starter/10-tasks";
+
+function App(): React.JSX.Element {
   return (
     <main>
-      <h2>React & Typescript</h2>
+      <Component />
     </main>
   );
 }

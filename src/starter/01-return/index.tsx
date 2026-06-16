@@ -1,4 +1,5 @@
-function Component() {
+function Component(): JSX.Element | null | string {
+  return "Hello World";
   return (
     <div>
       <h2>React & Typescript</h2>
